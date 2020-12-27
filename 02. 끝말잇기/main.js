@@ -1,4 +1,4 @@
 import Vue from 'vue'
-import WordRelay from './components/WordRelay'
+import WordGame from './components/WordGame'
 
-new Vue(WordRelay).$mount('#root')
+new Vue(WordGame).$mount('#root')

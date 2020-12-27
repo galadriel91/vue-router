@@ -8,7 +8,7 @@
         </button>
         <nav :class="state">
           <ul>
-              <li @click="onClickRemove"><router-link to="/wordrelay">끝말잇기</router-link></li>
+              <li @click="onClickRemove"><router-link to="/wordgame">끝말잇기</router-link></li>
               <li @click="onClickRemove"><router-link to="/numberbaseball">숫자야구</router-link></li>
               <li @click="onClickRemove"><router-link to="/numberpicker" >번호추첨</router-link></li>
               <li @click="onClickRemove"><router-link to="/responsive" >반응속도</router-link></li>
