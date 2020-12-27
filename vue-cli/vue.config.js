@@ -3,7 +3,7 @@ module.exports = {
     pages: {
         index: {
           entry: 'src/main.js',
-          title: 'Vue Webgame'
+          title: 'Vue Router'
         }
       }
 }
