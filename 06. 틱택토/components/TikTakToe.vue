@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
     .title{padding: 10px 0; font-size: 20px; color: #000;}
-    .container{display: flex; height: calc(100vh- 50px); justify-content: center; align-items: center; flex-direction: column;}
+    .container{display: flex; height: calc(100vh - 50px); justify-content: center; align-items: center; flex-direction: column;}
     .turn{padding: 10px 0; font-size: 20px; color: #000;}
     .result{padding: 10px 0; font-size: 14px; color: #000;}
 </style>
