@@ -15,7 +15,7 @@
 export default {
   data(){
     return{
-      word:'김병우',
+      word:'취업',
       input:'',
       result:'',
       redo:true
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style scoped>
-  .container{display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;}
+  .container{display: flex; justify-content: center; align-items: center; height: calc(100vh - 50px); flex-direction: column;}
   .main-word{padding: 1rem 0; font-size: 17px; font-weight: bold; color: #1b262c;}
   form div{display: flex; border: 1px solid #000; border-radius: 5px;}
   form div input{border:none; font-size: 14px; color: #000;}
