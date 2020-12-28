@@ -13,6 +13,7 @@
               <li @click="onClickRemove"><router-link to="/numberpicker" >번호추첨</router-link></li>
               <li @click="onClickRemove"><router-link to="/responsive" >반응속도</router-link></li>
               <li @click="onClickRemove"><router-link to="/tiktaktoe" >틱택토</router-link></li>
+              <li @click="onClickRemove"><router-link to="/rspgame" >가위바위보</router-link></li>
           </ul>
         </nav>
     </div>

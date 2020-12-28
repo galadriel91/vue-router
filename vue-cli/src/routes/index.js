@@ -6,6 +6,7 @@ import NumberBaseball from '../../../03. 숫자야구/components/NumberBaseball'
 import NumberPicker from '../../../04. 번호추첨/components/NumberPicker'
 import ResponsiveTest from '../../../05. 반응속도/components/ResponsiveTest'
 import TikTakToe from '../../../06. 틱택토/components/TikTakToe'
+import RspGame from '../../../07. 가위바위보/components/RspGame'
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -30,6 +31,10 @@ export default new VueRouter({
         {
             path:'/responsive',
             component:ResponsiveTest
+        },
+        {
+            path:'/rspgame',
+            component:RspGame
         },
         {
             path:'/tiktaktoe',
